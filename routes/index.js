@@ -114,25 +114,25 @@ router.get("/", (req, res) => {
         <div class="title">Logged in as: ${req.oidc.user.name}</div>
         <!-- Stylish UI Navigation Bar -->
         <div class="navigation-bar">
-          <a href="https://interview-app-7mxc.onrender.com/companydetail">Companies</a>
-          <a href="https://interview-app-7mxc.onrender.com/userdetail">Users</a>
-          <a href="https://interview-app-7mxc.onrender.com/schooldetail">Schools</a>
-          <a href="https://interview-app-7mxc.onrender.com/interviewdetail">Interviews</a>
+          <a href="https://cse341-finalproject-interviewapp.onrender.com/companydetail">Companies</a>
+          <a href="https://cse341-finalproject-interviewapp.onrender.com/userdetail">Users</a>
+          <a href="https://cse341-finalproject-interviewapp.onrender.com/schooldetail">Schools</a>
+          <a href="https://cse341-finalproject-interviewapp.onrender.com/interviewdetail">Interviews</a>
         </div><br>
     
         <!-- Additional Links -->
         <div class="subtext">
-          Check out <a href="https://interview-app-7mxc.onrender.com/profiledetail" class="api-docs-link">Profile</a>
+          Check out <a href="https://cse341-finalproject-interviewapp.onrender.com/profiledetail" class="api-docs-link">Profile</a>
         </div>
         <div class="subtext">
-          Go to <a href="https://interview-app-7mxc.onrender.com/api-docs" class="api-docs-link">Api-Docs</a>
+          Go to <a href="https://cse341-finalproject-interviewapp.onrender.com/api-docs" class="api-docs-link">Api-Docs</a>
         </div>
         <div class="subtext">
-          Go to <a href="https://interview-app-7mxc.onrender.com/graphql" class="api-docs-link">GraphQL</a>
+          Go to <a href="https://cse341-finalproject-interviewapp.onrender.com/graphql" class="api-docs-link">GraphQL</a>
         </div><br>
     
         <!-- Logout Button -->
-        <a href="https://interview-app-7mxc.onrender.com/logout" class="logout-button">Log out</a>
+        <a href="https://cse341-finalproject-interviewapp.onrender.com/logout" class="logout-button">Log out</a>
       </div>
     </body>
     </html>
@@ -232,20 +232,20 @@ router.get("/", (req, res) => {
     
         <!-- Stylish UI Navigation Bar -->
         <div class="navigation-bar">
-          <a href="https://interview-app-7mxc.onrender.com/companydetail">Companies</a>
-          <a href="https://interview-app-7mxc.onrender.com/userdetail">Users</a>
-          <a href="https://interview-app-7mxc.onrender.com/schooldetail">Schools</a>
-          <a href="https://interview-app-7mxc.onrender.com/interviewdetail">Interviews</a>
+          <a href="https://cse341-finalproject-interviewapp.onrender.com/companydetail">Companies</a>
+          <a href="https://cse341-finalproject-interviewapp.onrender.com/userdetail">Users</a>
+          <a href="https://cse341-finalproject-interviewapp.onrender.com/schooldetail">Schools</a>
+          <a href="https://cse341-finalproject-interviewapp.onrender.com/interviewdetail">Interviews</a>
         </div><br>
     
         <!-- API Docs Line -->
-        <div class="subtext">*LOGGED OUT*<br><br> To make changes to the <a href="https://interview-app-7mxc.onrender.com/api-docs" class="api-docs-link">api-docs</a>, please log in.</div>
+        <div class="subtext">*LOGGED OUT*<br><br> To make changes to the <a href="https://cse341-finalproject-interviewapp.onrender.com/api-docs" class="api-docs-link">api-docs</a>, please log in.</div>
     
         <!-- Login Button -->
-        <a href="https://interview-app-7mxc.onrender.com/login" class="login-button">Login</a><br>
+        <a href="https://cse341-finalproject-interviewapp.onrender.com/login" class="login-button">Login</a><br>
     
         <!-- GraphQL Link -->
-        <div class="subtext">Go to <a href="https://interview-app-7mxc.onrender.com/graphql" class="api-docs-link">GraphQL</a></div>
+        <div class="subtext">Go to <a href="https://cse341-finalproject-interviewapp.onrender.com/graphql" class="api-docs-link">GraphQL</a></div>
       </div>
     </body>
     </html>

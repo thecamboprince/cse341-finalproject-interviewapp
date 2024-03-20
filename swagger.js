@@ -5,7 +5,7 @@ const doc = {
     title: "Interview Application",
     description: "CSE-341: Final Project - API",
   },
-  host: "interview-app-7mxc.onrender.com",
+  host: "cse341-finalproject-interviewapp.onrender.com",
   schemes: ["https"],
 };
 

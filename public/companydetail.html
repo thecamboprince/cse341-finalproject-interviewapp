@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -48,9 +48,7 @@
         margin: 0 15px;
         padding: 8px 12px;
         border-radius: 8px;
-        transition:
-          background-color 0.3s ease,
-          color 0.3s ease; /* Added transition for smoother hover effect */
+        transition: background-color 0.3s ease, color 0.3s ease; /* Added transition for smoother hover effect */
       }
 
       .navigation-bar a:hover {
@@ -108,14 +106,20 @@
       <h1>Company Details</h1>
       <!-- Stylish UI Navigation Bar -->
       <div class="navigation-bar">
-        <a href="https://interview-app-7mxc.onrender.com/companydetail"
+        <a
+          href="https://cse341-finalproject-interviewapp.onrender.com/companydetail"
           ><b>Companies</b></a
         >
-        <a href="https://interview-app-7mxc.onrender.com/userdetail">Users</a>
-        <a href="https://interview-app-7mxc.onrender.com/schooldetail"
+        <a
+          href="https://cse341-finalproject-interviewapp.onrender.com/userdetail"
+          >Users</a
+        >
+        <a
+          href="https://cse341-finalproject-interviewapp.onrender.com/schooldetail"
           >Schools</a
         >
-        <a href="https://interview-app-7mxc.onrender.com/interviewdetail"
+        <a
+          href="https://cse341-finalproject-interviewapp.onrender.com/interviewdetail"
           >Interviews</a
         >
       </div>
@@ -127,7 +131,9 @@
       </div>
 
       <!-- Logout Button -->
-      <a href="https://interview-app-7mxc.onrender.com" class="back-button"
+      <a
+        href="https://cse341-finalproject-interviewapp.onrender.com"
+        class="back-button"
         >Home</a
       >
     </div>
@@ -135,7 +141,7 @@
     <script>
       window.onload = function () {
         // Fetch company data from server
-        fetch("https://interview-app-7mxc.onrender.com/companies")
+        fetch("https://cse341-finalproject-interviewapp.onrender.com/companies")
           .then((response) => response.json())
           .then((data) => {
             // Process the data and dynamically create HTML for each company
@@ -151,12 +157,24 @@
             <p><label>Company Name:</label> ${company.companyName}</p>
             <p><label>Description:</label> ${company.companyDescription}</p>
             <p><label>Industry:</label> ${company.industryCategory}</p>
-            <p><label>Location:</label> ${company.location.city}, ${company.location.state}, ${company.location.country}</p>
-            <p><label>Contact Person:</label> ${company.contactInfo.firstName} ${company.contactInfo.lastName}</p>
-            <p><label>Email:</label> <a href="mailto:${company.contactInfo.email}">${company.contactInfo.email}</a></p>
-            <p><label>Favorite Color:</label> ${company.contactInfo.favoriteColor}</p>
-            <p><label>Birthday:</label> ${new Date(company.contactInfo.birthday).toLocaleDateString()}</p>
-            <p><label>Website:</label> <a href="${company.websiteURL}">${company.websiteURL}</a></p>
+            <p><label>Location:</label> ${company.location.city}, ${
+                company.location.state
+              }, ${company.location.country}</p>
+            <p><label>Contact Person:</label> ${
+              company.contactInfo.firstName
+            } ${company.contactInfo.lastName}</p>
+            <p><label>Email:</label> <a href="mailto:${
+              company.contactInfo.email
+            }">${company.contactInfo.email}</a></p>
+            <p><label>Favorite Color:</label> ${
+              company.contactInfo.favoriteColor
+            }</p>
+            <p><label>Birthday:</label> ${new Date(
+              company.contactInfo.birthday
+            ).toLocaleDateString()}</p>
+            <p><label>Website:</label> <a href="${company.websiteURL}">${
+                company.websiteURL
+              }</a></p>
           `;
 
               companyContainer.appendChild(companyDiv);

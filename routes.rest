@@ -167,13 +167,13 @@ DELETE http://localhost:8080/interviews/65fa5416705430a8c73f7474 HTTP/1.1
 
 
 ### Get all companies 
-GET https://interview-app-7mxc.onrender.com/companies
+GET https://cse341-finalproject-interviewapp.onrender.com/companies
 
 ### Get a single company
-GET https://interview-app-7mxc.onrender.com/companies/65fb12f836e7e01872f786a0
+GET https://cse341-finalproject-interviewapp.onrender.com/companies/65fb12f836e7e01872f786a0
 
 ### Create a company 
-POST https://interview-app-7mxc.onrender.com/companies HTTP/1.1 
+POST https://cse341-finalproject-interviewapp.onrender.com/companies HTTP/1.1 
 Content-Type: application/json
 
 {
@@ -198,7 +198,7 @@ Content-Type: application/json
 
 
 ### Update company
-PUT https://interview-app-7mxc.onrender.com/companies/65fb12f836e7e01872f786a0 HTTP/1.1 
+PUT https://cse341-finalproject-interviewapp.onrender.com/companies/65fb12f836e7e01872f786a0 HTTP/1.1 
 content-type: application/json
 
 {
@@ -223,20 +223,20 @@ content-type: application/json
 
 
 ### Delete company
-DELETE https://interview-app-7mxc.onrender.com/companies/65fb12f836e7e01872f786a0 HTTP/1.1
+DELETE https://cse341-finalproject-interviewapp.onrender.com/companies/65fb12f836e7e01872f786a0 HTTP/1.1
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
 ### Get all users list 
-GET https://interview-app-7mxc.onrender.com/users
+GET https://cse341-finalproject-interviewapp.onrender.com/users
 
 ### Get a single user 
-GET https://interview-app-7mxc.onrender.com/users/65f100092d60a72c6291a8f0
+GET https://cse341-finalproject-interviewapp.onrender.com/users/65f100092d60a72c6291a8f0
 
 ### Create a user
-POST https://interview-app-7mxc.onrender.com/users HTTP/1.1 
+POST https://cse341-finalproject-interviewapp.onrender.com/users HTTP/1.1 
 Content-Type: application/json
 
 {
@@ -247,7 +247,7 @@ Content-Type: application/json
 }
 
 ### Update a user 
-PUT https://interview-app-7mxc.onrender.com/users/65f100092d60a72c6291a8f0 HTTP/1.1 
+PUT https://cse341-finalproject-interviewapp.onrender.com/users/65f100092d60a72c6291a8f0 HTTP/1.1 
 content-type: application/json
 
 {
@@ -257,20 +257,20 @@ content-type: application/json
    "userPassword":"b3stStud3nt!"
 }
 ### Delete a user 
-DELETE https://interview-app-7mxc.onrender.com/users/65f100092d60a72c6291a8f0 HTTP/1.1
+DELETE https://cse341-finalproject-interviewapp.onrender.com/users/65f100092d60a72c6291a8f0 HTTP/1.1
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
 ### Get all schools list
-GET https://interview-app-7mxc.onrender.com/schools
+GET https://cse341-finalproject-interviewapp.onrender.com/schools
 
 ### Get a single school  
-GET https://interview-app-7mxc.onrender.com/school/65f3b710d69d3493b56ea0ee
+GET https://cse341-finalproject-interviewapp.onrender.com/school/65f3b710d69d3493b56ea0ee
 
 ### Create a school 
-POST https://interview-app-7mxc.onrender.com/schools HTTP/1.1 
+POST https://cse341-finalproject-interviewapp.onrender.com/schools HTTP/1.1 
 Content-Type: application/json
 
 {
@@ -280,7 +280,7 @@ Content-Type: application/json
 }
 
 ### Update a school
-PUT https://interview-app-7mxc.onrender.com/schools/65f3b710d69d3493b56ea0ee HTTP/1.1 
+PUT https://cse341-finalproject-interviewapp.onrender.com/schools/65f3b710d69d3493b56ea0ee HTTP/1.1 
 content-type: application/json
 
 {
@@ -290,20 +290,20 @@ content-type: application/json
 }
 
 ### Delete a school
-DELETE https://interview-app-7mxc.onrender.com/schools/65f3b710d69d3493b56ea0ee HTTP/1.1
+DELETE https://cse341-finalproject-interviewapp.onrender.com/schools/65f3b710d69d3493b56ea0ee HTTP/1.1
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
 
 ### Get all interviews list
-GET https://interview-app-7mxc.onrender.com/interviews
+GET https://cse341-finalproject-interviewapp.onrender.com/interviews
 
 ### Get a single interview
-GET https://interview-app-7mxc.onrender.com/interviews/65fa5416705430a8c73f7474
+GET https://cse341-finalproject-interviewapp.onrender.com/interviews/65fa5416705430a8c73f7474
 
 ### Create an interview
-POST https://interview-app-7mxc.onrender.com/interviews HTTP/1.1 
+POST https://cse341-finalproject-interviewapp.onrender.com/interviews HTTP/1.1 
 Content-Type: application/json
 
 {
@@ -315,7 +315,7 @@ Content-Type: application/json
 }
 
 ### Update an interview
-PUT https://interview-app-7mxc.onrender.com/interviews/65fa5416705430a8c73f7474 HTTP/1.1 
+PUT https://cse341-finalproject-interviewapp.onrender.com/interviews/65fa5416705430a8c73f7474 HTTP/1.1 
 content-type: application/json
 
 {
@@ -327,7 +327,7 @@ content-type: application/json
 }
 
 ### Delete an interview 
-DELETE https://interview-app-7mxc.onrender.com/interviews/65fa5416705430a8c73f7474 HTTP/1.1
+DELETE https://cse341-finalproject-interviewapp.onrender.com/interviews/65fa5416705430a8c73f7474 HTTP/1.1
 
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////

@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -48,9 +48,7 @@
         margin: 0 15px;
         padding: 8px 12px;
         border-radius: 8px;
-        transition:
-          background-color 0.3s ease,
-          color 0.3s ease; /* Added transition for smoother hover effect */
+        transition: background-color 0.3s ease, color 0.3s ease; /* Added transition for smoother hover effect */
       }
 
       .navigation-bar a:hover {
@@ -108,14 +106,20 @@
       <h1>School Details</h1>
       <!-- Stylish UI Navigation Bar -->
       <div class="navigation-bar">
-        <a href="https://interview-app-7mxc.onrender.com/companydetail"
+        <a
+          href="https://cse341-finalproject-interviewapp.onrender.com/companydetail"
           >Companies</a
         >
-        <a href="https://interview-app-7mxc.onrender.com/userdetail">Users</a>
-        <a href="https://interview-app-7mxc.onrender.com/schooldetail"
+        <a
+          href="https://cse341-finalproject-interviewapp.onrender.com/userdetail"
+          >Users</a
+        >
+        <a
+          href="https://cse341-finalproject-interviewapp.onrender.com/schooldetail"
           ><b>Schools</b></a
         >
-        <a href="https://interview-app-7mxc.onrender.com/interviewdetail"
+        <a
+          href="https://cse341-finalproject-interviewapp.onrender.com/interviewdetail"
           >Interviews</a
         >
       </div>
@@ -127,7 +131,9 @@
       </div>
 
       <!-- Logout Button -->
-      <a href="https://interview-app-7mxc.onrender.com" class="back-button"
+      <a
+        href="https://cse341-finalproject-interviewapp.onrender.com"
+        class="back-button"
         >Home</a
       >
     </div>
@@ -135,7 +141,7 @@
     <script>
       window.onload = function () {
         // Fetch school data from server
-        fetch("https://interview-app-7mxc.onrender.com/schools")
+        fetch("https://cse341-finalproject-interviewapp.onrender.com/schools")
           .then((response) => response.json())
           .then((data) => {
             // Process the data and dynamically create HTML for each school
